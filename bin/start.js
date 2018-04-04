@@ -8,5 +8,5 @@ const staticServer = require("koa-static");
 
 app.use(staticServer(path.join(__dirname, '..', 'public/html')));
 
-app.listen(3000);
+app.listen(80);
 
