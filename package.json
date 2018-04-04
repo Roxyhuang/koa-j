@@ -1,0 +1,37 @@
+{
+  "name": "koa-project-j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/start.js",
+  "scripts": {
+    "start": "node ./bin/start.js",
+    "dev": "nodemon ./bin/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxyhuang/koa-project-template.git"
+  },
+  "author": "Neo_huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roxyhuang/koa-project-template/issues"
+  },
+  "homepage": "https://github.com/Roxyhuang/koa-project-template#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "co-body": "^5.1.1",
+    "formidable": "^1.1.1",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-request": "^1.0.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "mocha": "^4.1.0",
+    "should": "^13.2.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  }
+}
