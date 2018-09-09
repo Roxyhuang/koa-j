@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>立秋远疆之旅</title>
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.6.0/skins/default/aliplayer-min.css" />
+    <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.6.0/aliplayer-min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .prism-player{
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        height: auto;
+        width: auto;
+        /*加滤镜*/
+        /*-webkit-filter: grayscale(100%);*/
+        /*filter:grayscale(100%);*/
+    }
+
+</style>
+<body>
+<div  class="prism-player" id="J_prismPlayer" style="position: absolute"></div>
+<script>
+  var player = new Aliplayer({
+    id: 'J_prismPlayer',
+    width: '100%',
+    autoplay: true,
+    playsinline: true,
+    //支持播放地址播放,此播放优先级最高
+    source : 'http://juncaijames.com/dccdbb05ab354055a9dfdc342ec259bc/77cb7fa33cc347209e23697c0edc7472-c863f1e003bd8a0f8844a2cffc77772f-fd.m3u8',
+  },function(player){
+    console.log('播放器创建好了。');
+    player();
+
+  });
+</script>
+</body>
+</html>
