@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>路虎揽胜运动版72小时挑战“垂直中国”</title>
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.6.0/skins/default/aliplayer-min.css" />
+    <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.6.0/aliplayer-min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .prism-player{
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        height: auto;
+        width: auto;
+        /*加滤镜*/
+        /*-webkit-filter: grayscale(100%);*/
+        /*filter:grayscale(100%);*/
+    }
+
+</style>
+<body>
+<div  class="prism-player" id="J_prismPlayer" style="position: absolute"></div>
+<script>
+  var player = new Aliplayer({
+    id: 'J_prismPlayer',
+    width: '100%',
+    autoplay: true,
+    playsinline: true,
+    //支持播放地址播放,此播放优先级最高
+    source : 'http://juncaijames.com/47668e8714a2458b9032ecacbfecaddc/69a2ad91a43b4290b72cd8f8321c9791-12d11571f46215c83d681dd2a4a33fbb-fd.m3u8',
+  },function(player){
+    console.log('播放器创建好了。');
+    player();
+
+  });
+</script>
+</body>
+</html>
