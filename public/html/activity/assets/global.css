@@ -1,0 +1,182 @@
+.wp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.page{
+    position: relative;
+    font-size: 72px;
+    line-height: 200px;
+    text-align: center;
+}
+/* 箭头 */
+@-webkit-keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        -webkit-transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        -webkit-transform: translate(0, -5px);
+    }
+}
+@keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        transform: translate(0, -5px);
+    }
+}
+.start{
+    position: absolute;
+    left: 50%;
+    margin-left: -17px;
+    top: 95%;
+    margin-top: -34px;
+    width: 34px;
+    height: 34px;
+}
+.start b{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -9px;
+    width: 19px;
+    height: 12px;
+    background: url(./img/arrow.png);
+    background-size: 100% 100%;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
+
+.start2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -17px;
+    top: 95%;
+    margin-top: -34px;
+    width: 34px;
+    height: 34px;
+}
+.start2 b{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -9px;
+    width: 19px;
+    height: 12px;
+    background: url(./img/arrow_gray.png);
+    background-size: 100% 100%;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
+
+#jaguar .page1{
+    background-image: url("./img/1@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+#jaguar .page2{
+    background-image: url("./img/2@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+#jaguar .page3{
+    background-image: url("./img/3@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#jaguar .page4{
+    background-image: url("./img/4@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#jaguar .page5{
+    background-image: url("./img/5@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+
+#jaguar .page6{
+    background-image: url("./img/6@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#jaguar .page7{
+    background-image: url("./img/7@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .page1{
+    background-image: url("./img/l1@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+#land-rover .page2{
+    background-image: url("./img/l2@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+#land-rover .page3{
+    background-image: url("./img/l3@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .page4{
+    background-image: url("./img/l4@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .page5{
+    background-image: url("./img/l5@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+
+#land-rover .page6{
+    background-image: url("./img/l6@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .page7{
+    background-image: url("./img/l7@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
