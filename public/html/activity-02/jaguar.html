@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>捷豹</title>
+    <link rel="stylesheet" href="./assets/zepto.fullpage.css">
+    <link rel="stylesheet" href="./assets/global.css?t=201903051635">
+</head>
+<body>
+<div class="wp" id="jaguar">
+    <div class="wp-inner">
+        <div class="page page1">
+            <span class="start2"><b></b></span>
+        </div>
+        <div class="page page2">
+            <span class="start"><b></b></span>
+        </div>
+        <div class="page page3">
+            <span class="start"><b></b></span>
+        </div>
+        <div class="page page4">
+        </div>
+    </div>
+</div>
+<!--<span class="start"><b></b></span>-->
+<script src="./assets/js.fullpage.js?t=201903051635"></script>
+<script>
+  document.getElementsByClassName('wp-inner')[0].fullpage({
+    page: '.page',
+    start: 0,
+    duration: 500,
+    drag: false,
+    loop: false,
+    dir: 'v',
+    change: function () {},
+    beforeChange: function () {},
+    afterChange: function () {},
+    orientationchange: function () {}
+  });
+</script>
+</body>
+</html>
