@@ -6,16 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>路虎</title>
     <link rel="stylesheet" href="./assets/zepto.fullpage.css">
-    <link rel="stylesheet" href="./assets/global.css?t=201903291445">
+    <link rel="stylesheet" href="./assets/global.css?t=201903291741">
+    <script>
+      (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 75 * (clientWidth / 750) + 'px';
+            };
+        if (doc.addEventListener) {
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+      })(document, window);
+    </script>
 </head>
 <body>
 <div class="wp" id="land-rover">
     <div class="wp-inner">
-        <div class="page page1">
+        <div class="page t1">
+            <img src="./assets/img/t1_pic@2x.png?t=201903291741" class="t1Pic"/>
             <span class="start2"><b></b></span>
         </div>
-        <div class="page temp">
-            <img src="./assets/img/temp_pic@2x.png?t=201903291445" class="tempImg"/>
+        <div class="page t2">
+            <img src="./assets/img/t2_pic@2x.png?t=201903291741" class="t2Pic"/>
             <span class="start"><b></b></span>
         </div>
         <div class="page page3">
@@ -25,7 +41,7 @@
         </div>
     </div>
 </div>
-<script src="./assets/js.fullpage.js?t=201903291445"></script>
+<script src="./assets/js.fullpage.js?t=201903291741"></script>
 <script>
   document.getElementsByClassName('wp-inner')[0].fullpage();
 </script>

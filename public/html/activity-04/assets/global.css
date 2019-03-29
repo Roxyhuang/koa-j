@@ -79,74 +79,96 @@
     margin-left: -9px;
     width: 19px;
     height: 12px;
-    background: url(./img/arrow_gray.png?t=201903291428);
+    background: url(./img/arrow_gray.png?t=201903291741);
     background-size: 100% 100%;
     -webkit-animation: start 1.5s infinite ease-in-out;
     animation: start 1.5s infinite ease-in-out;
 }
 
-.tempImg {
+.t1Pic {
     position: absolute;
     width: 100%;
-    top: 7.2rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.t1Txt {
+    position: absolute;
+    width: 6rem;
+    bottom: 1.8rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.t2Pic {
+    position: absolute;
+    width: 100%;
+    top: 176px;
     left: 50%;
     transform: translate(-50%);
 }
 
 #jaguar .page1{
-    background-image: url("./img/1@2x.png?t=201903291445");
+    background-image: url("./img/1@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 #jaguar .page2{
-    background-image: url("./img/2@2x.png?t=201903291445");
+    background-image: url("./img/2@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 #jaguar .page3{
-    background-image: url("./img/3@2x.png?t=201903291445");
+    background-image: url("./img/3@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #jaguar .page4{
-    background-image: url("./img/4@2x.png?t=201903291445");
+    background-image: url("./img/4@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .page1{
-    background-image: url("./img/l1@2x.png?t=201903291445");
+    background-image: url("./img/l1@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 #land-rover .page2{
-    background-image: url("./img/l2@2x.png?t=201903291445");
+    background-image: url("./img/l2@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 #land-rover .page3{
-    background-image: url("./img/l3@2x.png?t=201903291445");
+    background-image: url("./img/l3@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .page4{
-    background-image: url("./img/l4@2x.png?t=201903291445");
+    background-image: url("./img/l4@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
-#land-rover .temp{
-    background-image: url("./img/temp_bg@2x.png?t=201903291445");
+#land-rover .t1{
+    background-image: url("./img/t1_bg@2x.png?t=201903291741");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .t2{
+    background-image: url("./img/t2_bg@2x.png?t=201903291741");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
