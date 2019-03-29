@@ -85,6 +85,14 @@
     animation: start 1.5s infinite ease-in-out;
 }
 
+.tempImg {
+    position: absolute;
+    width: 100%;
+    top: 7.2rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 #jaguar .page1{
     background-image: url("./img/1@2x.png?t=201903282024");
     background-size: 100% 100%;
@@ -132,6 +140,13 @@
 
 #land-rover .page4{
     background-image: url("./img/l4@2x.png?t=201903282024");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #1d263f;
+}
+
+#land-rover .temp{
+    background-image: url("./img/temp_bg@2x.png?t=201903282024");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
