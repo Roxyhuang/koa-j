@@ -103,72 +103,72 @@
 .t2Pic {
     position: absolute;
     width: 100%;
-    top: 176px;
+    top: 2.5rem;
     left: 50%;
     transform: translate(-50%);
 }
 
 #jaguar .page1{
-    background-image: url("./img/1@2x.png?t=201903291741");
+    background-image: url("./img/1@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 #jaguar .page2{
-    background-image: url("./img/2@2x.png?t=201903291741");
+    background-image: url("./img/2@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 #jaguar .page3{
-    background-image: url("./img/3@2x.png?t=201903291741");
+    background-image: url("./img/3@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #jaguar .page4{
-    background-image: url("./img/4@2x.png?t=201903291741");
+    background-image: url("./img/4@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .page1{
-    background-image: url("./img/l1@2x.png?t=201903291741");
+    background-image: url("./img/l1@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 #land-rover .page2{
-    background-image: url("./img/l2@2x.png?t=201903291741");
+    background-image: url("./img/l2@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 #land-rover .page3{
-    background-image: url("./img/l3@2x.png?t=201903291741");
+    background-image: url("./img/l3@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .page4{
-    background-image: url("./img/l4@2x.png?t=201903291741");
+    background-image: url("./img/l4@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .t1{
-    background-image: url("./img/t1_bg@2x.png?t=201903291741");
+    background-image: url("./img/t1_bg@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
 }
 
 #land-rover .t2{
-    background-image: url("./img/t2_bg@2x.png?t=201903291741");
+    background-image: url("./img/t2_bg@2x.png?t=201903291821");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #1d263f;
